@@ -13,22 +13,23 @@ main()
     {   int visits;
         cout<<"Number of patients who visited hospital on Day "<<patients<<": ";
         cin>>visits;
+        
             treated = 7;
           treated = y + treated;
           y = treated;
           if(visits<7){
             treated = treated-(6-visits);
+          
           }
          
           
           
          if(visits>7){
             untreated = x+(visits-7);
-            x = untreated;
+            x =untreated;
 
          }
-         
-          if(untreated>treated){
+         if(untreated>treated){
             untreated = untreated-1;
             treated = treated+1;
             
