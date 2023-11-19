@@ -30,12 +30,12 @@ main()
 
 void convertPINToDance(string pin)
 {   string move;
-string st;
+
     string moves[10]={
         "Shimmy", "Shake", "Pirouette", "Slide", "Box Step", "Headspin", "Dosado", "Pop", "Lock", "Arabasque"};
     
     ;
-    string  x ="48";
+    
     int k = 0;
     for(int i = 0; pin[i]!='\0'; i++)
     {   
